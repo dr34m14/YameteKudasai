@@ -1,0 +1,22 @@
+{
+  "name": "yamete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build":"nexe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.0",
+    "sound-play": "^1.1.0",
+    "usb-detection": "^4.14.1"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.1"
+  }
+}
