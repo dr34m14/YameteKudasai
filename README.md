@@ -1,6 +1,6 @@
 ## Yamete Kudasai🥵
 
-Hentai Sounds when plugging on USB
+H$nt@! Sounds when plugging on USB
 ## install
 * `git clone https://github.com/shopno14/YameteKudasai.git`
 * ` cd YameteKudasai`
