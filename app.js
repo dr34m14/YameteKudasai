@@ -18,12 +18,7 @@ usbDetect.on('add', function (device) {
 
 
 });
-usbDetect.on('add:vid', function (device) {
-    console.log('add', device);
-});
-usbDetect.on('add:vid:pid', function (device) {
-    console.log('add', device);
-});
+
 //end section
 //  remove
 usbDetect.on('remove', function (device) {
@@ -31,13 +26,7 @@ usbDetect.on('remove', function (device) {
 
     console.log('remove', device);
 });
-usbDetect.on('remove:vid', function (device) {
-    console.log('remove', device);
-});
-usbDetect.on('remove:vid:pid', function (device) {
-    console.log('remove', device);
-}
-);
+
 
 
 // usbDetect.stopMonitoring()
