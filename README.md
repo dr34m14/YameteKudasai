@@ -1,7 +1,6 @@
 ## Yamete Kudasai🥵
 
-A simple programe that nothing to say😅
-
+Hentai Sounds when plugging on USB
 ## install
 * `git clone https://github.com/shopno14/YameteKudasai.git`
 * ` cd YameteKudasai`
