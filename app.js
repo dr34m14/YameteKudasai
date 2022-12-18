@@ -4,7 +4,7 @@ const path = require("path");
 
 
 //audio
-const oniichan = path.join(__dirname, "OniiChan.mp3");
+const ahh = path.join(__dirname, "ahh.mp3");
 const yamete = path.join(__dirname, "YameteKudasai.mp3");
 
 console.log("start detecting...")
@@ -14,7 +14,8 @@ usbDetect.startMonitoring();
 // add
 usbDetect.on('add', function (device) {
     console.log('add', device);
-    sound.play(oniichan);
+    sound.play(yamete);
+
 
 });
 usbDetect.on('add:vid', function (device) {
@@ -26,7 +27,7 @@ usbDetect.on('add:vid:pid', function (device) {
 //end section
 //  remove
 usbDetect.on('remove', function (device) {
-    sound.play(yamete);
+    sound.play(ahh);
 
     console.log('remove', device);
 });
